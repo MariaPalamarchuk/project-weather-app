@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style/weather.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DynaPuff&display=swap" rel="stylesheet">
+    />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://kit.fontawesome.com/740c331342.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+  
+    
+    <video class=video autoplay loop muted src="video/thunder1.mp4" ></video>
+  
+    <div class="body">
+      
+        <form id="form">
+          <input
+            type="text"
+            id="query"
+            placeholder="Search for a city"
+          />
+          <input type="submit" id="searchForm" value="Search" />
+        </form>
+        <p class="emoji">☀<p/>
+        <h1>
+          21℃
+        </h1>
+
+        <h2 >
+          New York
+         </h2>
+         <h3 id="date"></h3>
+        <p class="nextforec">The forecast for the next 5 days</p>
+        <ul class="forecast">
+         <li class="days">Mon <br />18 ℃</li>
+         <li class="days">Tue <br />18 ℃</li>
+         <li class="days">Wed <br />18 ℃</li>
+         <li class="days">Thu <br />18 ℃</li>
+         <li class="days">Fri <br />18 ℃</li>
+    </div>
+   <p class="wind">
+    <div class="first">Wind :</div>
+   </p>
+   <p class="cloud">
+    <div class="second">Cloudiness:</div>
+   </p>
+   <p class="rain">
+    <div class="third">Humidity:</div>
+  </p>
+  </body>
+    <script src="project.js"></script>
+</html>
