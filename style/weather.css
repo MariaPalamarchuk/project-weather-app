@@ -5,11 +5,11 @@ body {
 .body {
   margin: 10px 10px 20px 10px;
   max-width: 400px;
-  max-height: 450px;
+  height: 495px;
   padding: 0px;
   border-radius: 7px;
   position: relative;
-  top: 100px;
+  top: 90px;
   left: 800px;
   border: 1px solid #113f67;
   background: radial-gradient(
@@ -84,17 +84,6 @@ h2 {
   font-size: 20px;
   margin: 10px 10px;
   font-family: "DynaPuff";
-}
-.video {
-  position: relative;
-  top: 110px;
-  left: 790px;
-  margin: 0 auto;
-  width: 30%;
-  height: 50px;
-  object-fit: cover;
-  z-index: -100;
-  border-radius: 10px;
 }
 img {
   max-width: 20%;
