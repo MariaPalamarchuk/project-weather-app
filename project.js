@@ -46,4 +46,9 @@ function showTemperature(response) {
   let secondElement = document.querySelector(".second");
   secondElement.innerHTML =
     "Cloudiness:" + " " + response.data.clouds.all + "%";
+  let emojiElement = document.querySelector("#emoji");
+  emojiElement.setAttribute(
+    "src",
+    `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
+  );
 }
