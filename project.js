@@ -37,4 +37,11 @@ function showTemperature(response) {
   let temperature = Math.round(response.data.main.temp);
   let h1 = document.querySelector("h1");
   h1.innerHTML = `${temperature}℃`;
+  let thirdElement = document.querySelector(".third");
+  thirdElement.innerHTML = "Humidity:" + response.data.main.humidity + "%";
+  let firstElement = document.querySelector(".first");
+  firstElement.innerHTML =
+    "Wind:" + Math.round(response.data.wind.speed) + "Km/H";
+  let secondElement = document.querySelector(".second");
+  secondElement.innerHTML = "Cloudiness:" + response.data.clouds.all + "%";
 }
