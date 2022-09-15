@@ -1,5 +1,10 @@
 body {
-  background: #202639;
+  background: radial-gradient(
+    circle,
+    rgba(93, 137, 184, 1) 0%,
+    rgba(35, 87, 131, 1) 49%,
+    rgba(60, 97, 130, 1) 82%
+  );
 }
 
 .body {
@@ -14,9 +19,9 @@ body {
   border: 1px solid #e7eaf6;
   background: radial-gradient(
     circle,
-    rgba(4, 3, 28, 1) 0%,
-    rgba(29, 29, 59, 1) 49%,
-    rgba(4, 3, 28, 1) 82%
+    rgb(118, 160, 204) 0%,
+    rgb(127, 154, 180) 49%,
+    rgba(74, 106, 155, 1) 82%
   );
 }
 #form {
@@ -51,8 +56,6 @@ h1 {
   color: #e7eaf6;
   text-align: center;
   margin: 20px 10px 10px 120px;
-  border-radius: 50%;
-  border: 2px solid#e7eaf6;
   width: 150px;
   height: 150px;
   display: block;
@@ -60,7 +63,8 @@ h1 {
   font-family: "DynaPuff", cursive;
   padding-bottom: 0px;
   position: relative;
-  top: -20px;
+  top: -25px;
+  padding-top: 10px;
 }
 h2 {
   display: block;
@@ -69,12 +73,16 @@ h2 {
   text-align: center;
   margin: 0 auto;
   font-family: "DynaPuff", cursive;
+  position: relative;
+  top: -40px;
 }
 .nextforec {
   color: #e7eaf6;
   text-align: center;
   margin: 10px 0px 0px 0px;
   font-family: "DynaPuff";
+  position: relative;
+  top: -30px;
 }
 .days {
   color: #e7eaf6;
@@ -84,6 +92,8 @@ h2 {
   font-size: 20px;
   margin: 10px 10px;
   font-family: "DynaPuff";
+  position: relative;
+  top: -20px;
 }
 img {
   max-width: 20%;
@@ -166,15 +176,17 @@ h3 {
   text-align: center;
   margin: 0 auto;
   font-family: "DynaPuff";
+  position: relative;
+  top: -30px;
 }
 #emoji {
   display: block;
   color: #e7eaf6;
-  font-size: 50px;
+  font-size: 70px;
   margin: 0 auto;
   text-align: center;
   position: relative;
-  top: 130px;
+  top: 140px;
 }
 .openSource {
   display: block;
