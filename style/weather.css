@@ -217,3 +217,13 @@ h3 {
 .fUnit {
   color: #464b4f;
 }
+#description {
+  display: block;
+  color: #e7eaf6;
+  font-weight: 40px;
+  text-align: center;
+  margin: 0 auto;
+  font-family: "DynaPuff", cursive;
+  position: relative;
+  top: -120px;
+}
