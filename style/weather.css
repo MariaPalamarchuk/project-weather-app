@@ -37,10 +37,11 @@ body {
 }
 ::placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: #0a184e;
-  opacity: 1; /* Firefox */
+  color: #74767a;
+  opacity: 0.5; /* Firefox */
   font-family: "DynaPuff";
 }
+
 #searchForm {
   background: transparent;
   color: aliceblue;
