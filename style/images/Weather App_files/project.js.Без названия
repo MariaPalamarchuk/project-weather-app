@@ -11,13 +11,7 @@ let days = [
 ];
 let day = days[now.getDay()];
 let hours = now.getHours();
-if (hours < 10) {
-  hours = `0${hours}`;
-}
 let minutes = now.getMinutes();
-if (minutes < 10) {
-  minutes = `0${minutes}`;
-}
 let date = now.getDate();
 let month = now.getMonth();
 let year = now.getFullYear();
@@ -61,23 +55,8 @@ function showTemperature(response) {
 }
 function showFarenheitTemperature(event) {
   event.preventDefault();
-  let farenheitTemperature = (celsiusTemperature * 9) / 5 + 32;
-  let temperatureElement = document.querySelector("#temperature");
-  celsiusLink.classList.remove("cUnit");
-  farenheitLink.classList.add("cUnit");
-  temperatureElement.innerHTML = Math.round("farenheitTemperature");
+  let farenheitTemperture = (14 * 9) / 5 + 32;
 }
-function showCelsiusTemperature(event) {
-  event.preventDefault();
-  let temperatureElement = document.querySelector("#temperature");
-  farenheitLink.classList.remove("cUnit");
-  celsiusLink.classList.add("cUnit");
-  temperatureElement.innerHTML = Math.round(celsiusTemperature);
-}
-let celsiusTemperature = null;
-let farenheitLink = document.querySelector("#farenheit");
-let celsiusLink = document.querySelector("#celsius");
-let cUnit = document.querySelector(".cUnit");
-cUnit.addEventListener("click", showCelsiusTemperature);
+
 let fUnit = document.querySelector(".fUnit");
 fUnit.addEventListener("click", showFarenheitTemperature);
