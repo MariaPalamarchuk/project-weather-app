@@ -60,7 +60,7 @@ h1 {
   width: 150px;
   height: 150px;
   display: block;
-  font-size: 60px;
+  font-size: 80px;
   font-family: "DynaPuff", cursive;
   padding-bottom: 0px;
   position: relative;
@@ -76,7 +76,7 @@ h2 {
   margin: 0 auto;
   font-family: "DynaPuff", cursive;
   position: relative;
-  top: -40px;
+  top: -45px;
 }
 .nextforec {
   color: #e7eaf6;
@@ -84,7 +84,7 @@ h2 {
   margin: 10px 0px 0px 0px;
   font-family: "DynaPuff";
   position: relative;
-  top: -30px;
+  top: -50px;
 }
 img {
   max-width: 20%;
@@ -92,11 +92,11 @@ img {
 .wind {
   position: relative;
   top: -425px;
-  margin-left: -400px;
+  margin-left: -350px;
   border: 1px solid #e7eaf6;
   display: block;
   padding-left: 30px;
-
+  left: 100px;
   height: 150px;
   margin-inline-start: 250px;
   margin-inline-end: 530px;
@@ -105,8 +105,9 @@ img {
 }
 .cloud {
   position: relative;
-  top: -480px;
+  top: -487px;
   margin-left: -400px;
+  left: 100px;
   margin-top: 5px;
   border: 1px solid #e7eaf6;
   display: block;
@@ -118,7 +119,8 @@ img {
 }
 .rain {
   position: relative;
-  top: -535px;
+  top: -550px;
+  left: 100px;
   margin-left: -370px;
   margin-top: 5px;
   border: 1px solid #e7eaf6;
@@ -134,7 +136,7 @@ img {
   color: #e7eaf6;
   position: relative;
   top: -490px;
-  left: -310px;
+  left: -240px;
   font-family: "DynaPuff";
   color: #1a2639;
   font-size: 34px;
@@ -144,7 +146,7 @@ img {
   color: #e7eaf6;
   position: relative;
   top: -550px;
-  left: -290px;
+  left: -210px;
   font-family: "DynaPuff";
   color: #1a2639;
   font-size: 34px;
@@ -153,8 +155,8 @@ img {
   text-align: center;
   color: #e7eaf6;
   position: relative;
-  top: -630px;
-  left: -290px;
+  top: -650px;
+  left: -220px;
   font-family: "DynaPuff";
   color: #1a2639;
   font-size: 34px;
@@ -168,7 +170,7 @@ h3 {
   margin: 0 auto;
   font-family: "DynaPuff";
   position: relative;
-  top: -30px;
+  top: -45px;
 }
 #emoji {
   display: block;
@@ -177,7 +179,7 @@ h3 {
   margin: 0 auto;
   text-align: center;
   position: relative;
-  top: 150px;
+  top: 120px;
 }
 .openSource {
   display: block;
@@ -204,9 +206,7 @@ h3 {
   font-family: "DynaPuff";
   font-size: 30px;
 }
-.fUnit {
-  color: #464b4f;
-}
+
 #description {
   display: block;
   color: #e7eaf6;
@@ -215,23 +215,24 @@ h3 {
   margin: 0 auto;
   font-family: "DynaPuff", cursive;
   position: relative;
-  top: -120px;
+  top: -160px;
 }
 .weather-forecast {
   color: #e7eaf6;
   list-style: none;
-  display: inline-block;
-  width: 40%;
+  display: flex;
+  width: 100%;
   text-align: center;
   font-size: 20px;
-  margin: 10px 10px;
+  left: 50px;
   font-family: "DynaPuff";
   position: relative;
-  top: -20px;
+  top: -40px;
 }
 
 .weather-forecast-date {
   font-size: 16px;
+  margin: 0px 10px 0px 10px;
 }
 
 .weather-forecast-temperature-min {

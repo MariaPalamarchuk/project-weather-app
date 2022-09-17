@@ -64,7 +64,7 @@ function showTemperature(response) {
 function displayForecast() {
   let forecastElement = document.querySelector("#forecast");
 
-  let days = ["Mon", "Tue", "Wed", "Thu"];
+  let days = ["Mon", "Tue", "Wed", "Thu", "Fri"];
 
   let forecastHTML = `<div class="row">`;
   days.forEach(function (day) {
@@ -76,7 +76,7 @@ function displayForecast() {
         <img
           src="http://openweathermap.org/img/wn/50d@2x.png"
           alt=""
-          width="42"
+          width="50"
         />
         <div class="weather-forecast-temperatures">
           <span class="weather-forecast-temperature-max"> 18° </span>
