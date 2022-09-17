@@ -64,7 +64,7 @@ h1 {
   font-family: "DynaPuff", cursive;
   padding-bottom: 0px;
   position: relative;
-  top: -25px;
+  top: -35px;
   right: 15px;
   padding-top: 10px;
 }
@@ -76,7 +76,7 @@ h2 {
   margin: 0 auto;
   font-family: "DynaPuff", cursive;
   position: relative;
-  top: -45px;
+  top: -55px;
 }
 .nextforec {
   color: #e7eaf6;
@@ -84,10 +84,10 @@ h2 {
   margin: 10px 0px 0px 0px;
   font-family: "DynaPuff";
   position: relative;
-  top: -50px;
+  top: -100px;
 }
 img {
-  max-width: 20%;
+  max-width: 90%;
 }
 .wind {
   position: relative;
@@ -136,7 +136,7 @@ img {
   color: #e7eaf6;
   position: relative;
   top: -490px;
-  left: -240px;
+  left: -200px;
   font-family: "DynaPuff";
   color: #1a2639;
   font-size: 34px;
@@ -146,7 +146,7 @@ img {
   color: #e7eaf6;
   position: relative;
   top: -550px;
-  left: -210px;
+  left: -170px;
   font-family: "DynaPuff";
   color: #1a2639;
   font-size: 34px;
@@ -156,7 +156,7 @@ img {
   color: #e7eaf6;
   position: relative;
   top: -650px;
-  left: -220px;
+  left: -180px;
   font-family: "DynaPuff";
   color: #1a2639;
   font-size: 34px;
@@ -170,7 +170,7 @@ h3 {
   margin: 0 auto;
   font-family: "DynaPuff";
   position: relative;
-  top: -45px;
+  top: -55px;
 }
 #emoji {
   display: block;
@@ -185,7 +185,7 @@ h3 {
   display: block;
   text-align: center;
   position: relative;
-  top: -600px;
+  top: -630px;
   color: #9aa9ba;
 }
 .link {
@@ -215,7 +215,7 @@ h3 {
   margin: 0 auto;
   font-family: "DynaPuff", cursive;
   position: relative;
-  top: -160px;
+  top: -170px;
 }
 .weather-forecast {
   color: #e7eaf6;
@@ -227,7 +227,7 @@ h3 {
   left: 50px;
   font-family: "DynaPuff";
   position: relative;
-  top: -40px;
+  top: -95px;
 }
 
 .weather-forecast-date {
